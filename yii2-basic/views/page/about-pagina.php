@@ -1,0 +1,18 @@
+<?php
+
+/** @var \yii\web\View $this */
+
+$this->title="Page - About us";
+
+$this->registerMetaTag(['name'=>'keywords','content'=>'yii2, advanced'])
+?>
+
+
+<h1>Hello from PageController</h1>
+<?php echo $a ?>
+<br>
+<?php echo $b ?>
+
+<div>
+    <?php echo $this->render('page_footer') ?>
+</div>
